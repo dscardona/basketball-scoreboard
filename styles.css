@@ -5,22 +5,31 @@
 
 body {
     background: black;
+    margin: 0px;
 }
 
 .board {
     height: 385px;
     width: 575px;
+    padding: 0px;
     background: #1B244A;
     margin: 30px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+}
+
+.team-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
 }
 
 h1 {
     color: #EEEEEE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .score-screen {
@@ -32,8 +41,11 @@ h1 {
 
 .score {
     font-size: 90px;
+    padding: 15px;
+    margin: auto auto;
     text-align: center;
     color: #F94F6D ;
+    font-weight: normal;
 }
 
 .increase-score-btns {
