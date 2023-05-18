@@ -1,0 +1,41 @@
+body {
+    background: black;
+}
+
+.board {
+    height: 385px;
+    width: 575px;
+    background: #1B244A;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: #EEEEEE;
+}
+
+.score-screen {
+    height: 120px;
+    width: 155px;
+    background: #080001;
+}
+
+.score {
+    font-size: 90px;
+    text-align: center;
+    color: #F94F6D ;
+}
+
+.increase-score-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-increase {
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    height: 20px;
+    width: 20px;
+}
